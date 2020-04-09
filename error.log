@@ -1,0 +1,32 @@
+# virtualenv execution utf8_mode error
+# solution : https://github.com/pyinstaller/pyinstaller/issues/3866
+C:\>mkdir test-pyinstaller && cd  test-pyinstaller 
+
+C:\test-pyinstaller>py -3.7 --version
+Python 3.7.1
+
+C:\test-pyinstaller>py -3.7 -m pip install pyinstaller
+Collecting pyinstaller
+...
+Successfully installed pyinstaller-3.4 ...
+
+C:\test-pyinstaller>echo import sys; print("UTF8 mode is ", sys.flags.utf8_mode) >main.py
+
+C:\test-pyinstaller>py -3.7 main.py
+UTF8 mode is  0
+
+C:\test-pyinstaller>py -3.7 -m PyInstaller main.py
+45 INFO: PyInstaller: 3.4
+46 INFO: Python: 3.7.1
+... completed successfully.
+
+C:\test-pyinstaller>dist\main\main.exe
+UTF8 mode is  0
+
+C:\test-pyinstaller>set PYTHONUTF8=1
+
+C:\test-pyinstaller>py -3.7 main.py
+UTF8 mode is  1
+
+C:\test-pyinstaller>dist\main\main.exe
+UTF8 mode is  0

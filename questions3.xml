@@ -1,0 +1,190 @@
+<HTMLQuestion xmlns="http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2011-11-11/HTMLQuestion.xsd">
+<HTMLContent><![CDATA[
+<!-- YOUR HTML BEGINS -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="emo_sent1">${story_sent1}</label>
+  <div class="col-md-4">
+    <select id="emo_sent1" name="emo_sent1" class="form-control">
+      <option value="">choice emotion</option>
+      <option value="happy">Happy</option>
+	  <option value="sad">Sad</option>
+	  <option value="angry">Angry</option>
+	  <option value="fearful">Fearful</option>
+	  <option value="surprised">Surprised</option>
+	  <option value="disgust">Disgust</option>
+	  <option value="anticipation">Anticipation</option>
+	  <option value="trust">Trust</option>
+	  <option value="not">Not specified</option>
+    </select>
+  </div>
+</div>
+
+<!-- Select Basic -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="emo_sent2">${story_sent2}</label>
+  <div class="col-md-4">
+    <select id="emo_sent2" name="emo_sent2" class="form-control">
+      <option value="">choice emotion</option>
+      <option value="happy">Happy</option>
+	  <option value="sad">Sad</option>
+	  <option value="angry">Angry</option>
+	  <option value="fearful">Fearful</option>
+	  <option value="surprised">Surprised</option>
+	  <option value="disgust">Disgust</option>
+	  <option value="anticipation">Anticipation</option>
+	  <option value="trust">Trust</option>
+	  <option value="not">Not specified</option>
+    </select>
+  </div>
+</div>
+
+<!-- Select Basic -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="emo_sent3">${story_sent3}</label>
+  <div class="col-md-4">
+    <select id="emo_sent3" name="emo_sent3" class="form-control">
+      <option value="">choice emotion</option>
+      <option value="happy">Happy</option>
+	  <option value="sad">Sad</option>
+	  <option value="angry">Angry</option>
+	  <option value="fearful">Fearful</option>
+	  <option value="surprised">Surprised</option>
+	  <option value="disgust">Disgust</option>
+	  <option value="anticipation">Anticipation</option>
+	  <option value="trust">Trust</option>
+	  <option value="not">Not specified</option>
+    </select>
+  </div>
+</div>
+
+<!-- Select Basic -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="emo_sent4">${story_sent4}</label>
+  <div class="col-md-4">
+    <select id="emo_sent4" name="emo_sent4" class="form-control">
+      <option value="">choice emotion</option>
+      <option value="happy">Happy</option>
+	  <option value="sad">Sad</option>
+	  <option value="angry">Angry</option>
+	  <option value="fearful">Fearful</option>
+	  <option value="surprised">Surprised</option>
+	  <option value="disgust">Disgust</option>
+	  <option value="anticipation">Anticipation</option>
+	  <option value="trust">Trust</option>
+	  <option value="not">Not specified</option>
+    </select>
+  </div>
+</div>
+
+<!-- Select Basic -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="emo_sent5">${story_sent5}</label>
+  <div class="col-md-4">
+    <select id="emo_sent5" name="emo_sent5" class="form-control">
+      <option value="">choice emotion</option>
+      <option value="happy">Happy</option>
+	  <option value="sad">Sad</option>
+	  <option value="angry">Angry</option>
+	  <option value="fearful">Fearful</option>
+	  <option value="surprised">Surprised</option>
+	  <option value="disgust">Disgust</option>
+	  <option value="anticipation">Anticipation</option>
+	  <option value="trust">Trust</option>
+	  <option value="not">Not specified</option>
+    </select>
+  </div>
+</div>
+
+<!-- Select Basic -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="goal_story">위 다섯 문장의 스토리가 목표를 가지고 있는지?</label>
+  <div class="col-md-4">
+    <select id="goal_story" name="goal_story" class="form-control">
+      <option value="">choice option</option>
+      <option value="goal_achieved">Goal achieved</option>
+	  <option value="goal_failed">Goal failed</option>
+	  <option value="goal_not">be aimless</option>
+    </select>
+  </div>
+
+</div>
+
+<!-- Select Basic -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="goal_contains">주인공이 어떤 목표를 갖고 있음을 처음 알게 된 문장은 몇 번째인가?</label>
+  <div class="col-md-4">
+    <select id="goal_contains" name="goal_contains" class="form-control">
+      <option value="1">1th sentence</option>
+      <option value="2">2th sentence</option>
+      <option value="3">3th sentence</option>
+      <option value="4">4th sentence</option>
+      <option value="5">5th sentence</option>
+	  <option value="0">be aimless</option>
+    </select>
+  </div>
+</div>
+
+<div class="form-group">
+  <label class="col-md-4 control-label" for="goal_sentence">목표를 달성한 문장이 몇 번째로 나왔는가?</label>
+  <div class="col-md-4">
+    <select id="goal_sentence" name="goal_sentence" class="form-control">
+      <option value="1">1th sentence</option>
+      <option value="2">2th sentence</option>
+      <option value="3">3th sentence</option>
+      <option value="4">4th sentence</option>
+      <option value="5">5th sentence</option>
+	  <option value="0">be aimless</option>
+    </select>
+  </div>
+</div>
+<input type="hidden" name="story_id" value="${story_id}">
+
+<style type="text/css">#collapseTrigger{
+  color:#fff;
+  display: block;
+  text-decoration: none;
+}
+#submitButton{
+  white-space: normal;
+}
+.image{
+  margin-bottom: 15px; 
+}
+/* CSS for breaking long words/urls */
+.dont-break-out {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -ms-word-break: break-all;
+  word-break: break-all;
+  word-break: break-word;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+</style>
+<script src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js" integrity="sha384-s1ITto93iSMDxlp/79qhWHi+LsIi9Gx6yL+cOKDuymvihkfol83TYbLbOw+W/wv4" crossorigin="anonymous"></script>
+<script>
+  $(document).ready(function() {
+    // Instructions expand/collapse
+    var content = $('#instructionBody');
+    var trigger = $('#collapseTrigger');
+    content.hide();
+    $('.collapse-text').text('(Click to expand)');
+    trigger.click(function(){
+      content.toggle();
+      var isVisible = content.is(':visible');
+      if(isVisible){
+        $('.collapse-text').text('(Click to collapse)');
+      }else{
+        $('.collapse-text').text('(Click to expand)');
+      }
+    });
+    // end expand/collapse
+  });
+</script>
+<!-- YOUR HTML ENDS -->
+]]>
+</HTMLContent>
+<FrameHeight>600</FrameHeight>
+</HTMLQuestion>
